@@ -1,0 +1,25 @@
+div.search-box {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+div.search-box input[type='text'] {
+  margin-left: 8px;
+  width: 100%;
+  border: none;
+  font-size: 2em;
+}
+
+div.search-box input[type='text']:focus {
+  outline: none;
+}
+
+div.search-box input[type='text']::placeholder {
+  color: lightgrey;
+}
+
+.search-icon {
+  font-size: 1.4em;
+  color: rgb(226, 226, 226);
+}

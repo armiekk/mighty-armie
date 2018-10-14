@@ -1,0 +1,69 @@
+div.post-item {
+  display: flex;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  margin-bottom: 8px;
+}
+
+div.post-item div.thumbnail {
+  display: flex;
+  width: 300px;
+  height: 200px;
+}
+
+div.thumbnail img {
+  margin: 0;
+  object-fit: contain;
+}
+
+div.post-item div.description {
+  padding: 8px;
+  justify-content: space-between;
+}
+
+div.post-item div.description,
+div.post-item div.description div.post-desc-header {
+  display: flex;
+  flex-direction: column;
+}
+
+div.post-item div.detail {
+  margin-top: 8px;
+}
+
+div.title {
+  display: flex;
+  align-items: center;
+}
+
+div.title a {
+  color: black;
+  text-decoration: none;
+}
+
+div.title h1 {
+  margin: 0;
+}
+
+div.meta {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+div.tags {
+  font-size: 16px;
+  align-items: center;
+}
+
+span.tag {
+  font-weight: bold;
+  border: solid 1px rgb(90, 90, 90);
+  padding: 4px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+span.tag:hover {
+  background-color: black;
+  border: solid 1px white;
+  color: white;
+}
